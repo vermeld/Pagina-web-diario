@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeNews - Tu fuente de noticias anime</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">AnimeNews</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reseñas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Temporada</a>
+                    </li>
+                </ul>
+                <a href="registro.html" class="btn btn-outline-light">Registrarse</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/xd.jpg" class="d-block w-100" alt="Anime News">
+                <div class="carousel-caption">
+                    <h1>Las últimas noticias del mundo del anime</h1>
+                    <p>Mantente informado sobre los últimos lanzamientos, noticias y tendencias del mundo del anime.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/thorfinn.jpg" class="d-block w-100" alt="Vinland Saga">
+                <div class="carousel-caption">
+                    <h1>Descubre las mejores series del momento</h1>
+                    <p>Explora nuestro catálogo de animes populares y novedades.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/rudeus.jpg" class="d-block w-100" alt="Mushoku Tensei">
+                <div class="carousel-caption">
+                    <h1>Noticias exclusivas y actualizaciones</h1>
+                    <p>Entérate de los últimos acontecimientos en el mundo del anime y manga.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <!-- Featured News -->
+    <section class="featured-news py-5">
+        <div class="container">
+            <h2 class="section-title mb-4">Noticias Destacadas</h2>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card featured-card">
+                        <img src="assets/img/niño.webp" class="card-img-top" alt="Featured News">
+                        <div class="card-body">
+                            <h3 class="card-title">Nuevo trailer de la próxima temporada de Demon Slayer</h3>
+                            <p class="card-text">Descubre lo que nos depara la nueva temporada de uno de los animes más populares del momento.</p>
+                            <a href="#" class="btn btn-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h4>Jujutsu Kaisen: Nuevo capítulo especial anunciado</h4>
+                            <p>La serie que revolucionó el género shonen nos trae más contenido...</p>
+                            <a href="#" class="btn btn-outline-primary">Leer más</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h4>My Hero Academia: Nuevo arco argumental revelado</h4>
+                            <p>Los héroes se enfrentan a su mayor desafío hasta ahora...</p>
+                            <a href="#" class="btn btn-outline-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News Grid -->
+    <section class="latest-news py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title mb-4">Últimas Noticias</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/img/niño.webp" class="card-img-top" alt="Studio Ghibli News">
+                        <div class="card-body">
+                            <h5 class="card-title">Nuevo anime de Studio Ghibli anunciado</h5>
+                            <p class="card-text">El legendario estudio nos trae una nueva historia mágica...</p>
+                            <a href="#" class="btn btn-outline-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/img/titan.jpg" class="card-img-top" alt="Attack on Titan News">
+                        <div class="card-body">
+                            <h5 class="card-title">Attack on Titan: Episodio final revela fecha</h5>
+                            <p class="card-text">La saga de la humanidad contra los titanes llega a su fin...</p>
+                            <a href="#" class="btn btn-outline-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/img/r.jpg" class="card-img-top" alt="One Piece News">
+                        <div class="card-body">
+                            <h5 class="card-title">Nuevo manga de One Piece revela detalles</h5>
+                            <p class="card-text">La aventura de Luffy continúa con nuevas revelaciones...</p>
+                            <a href="#" class="btn btn-outline-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Manga News -->
+    <section class="manga-news py-5">
+        <div class="container">
+            <h2 class="section-title mb-4">Noticias de Manga</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/img/niño.webp" class="card-img-top" alt="Manga News">
+                        <div class="card-body">
+                            <h5 class="card-title">Nuevo volumen de Chainsaw Man revela detalles</h5>
+                            <p class="card-text">La historia de Denji continúa con giros inesperados...</p>
+                            <a href="#" class="btn btn-outline-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/img/titan.jpg" class="card-img-top" alt="Manga News">
+                        <div class="card-body">
+                            <h5 class="card-title">Jujutsu Kaisen: Nuevo arco del manga</h5>
+                            <p class="card-text">Los hechiceros se enfrentan a una nueva amenaza...</p>
+                            <a href="#" class="btn btn-outline-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/img/tanjiro.jpg" class="card-img-top" alt="Manga News">
+                        <div class="card-body">
+                            <h5 class="card-title">Demon Slayer: Nuevo spin-off anunciado</h5>
+                            <p class="card-text">Una nueva historia paralela se desarrollará...</p>
+                            <a href="#" class="btn btn-outline-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Games News -->
+    <section class="video-games-news py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title mb-4">Noticias de Videojuegos</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/img/niño.webp" class="card-img-top" alt="Video Game News">
+                        <div class="card-body">
+                            <h5 class="card-title">Nuevo juego de Dragon Ball anunciado</h5>
+                            <p class="card-text">Bandai Namco revela detalles del próximo título...</p>
+                            <a href="#" class="btn btn-outline-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/img/titan.jpg" class="card-img-top" alt="Video Game News">
+                        <div class="card-body">
+                            <h5 class="card-title">Genshin Impact: Nueva región revelada</h5>
+                            <p class="card-text">Los jugadores explorarán un nuevo territorio...</p>
+                            <a href="#" class="btn btn-outline-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/img/tanjiro.jpg" class="card-img-top" alt="Video Game News">
+                        <div class="card-body">
+                            <h5 class="card-title">Persona 6: Primeros detalles filtrados</h5>
+                            <p class="card-text">La nueva entrega de la saga promete innovación...</p>
+                            <a href="#" class="btn btn-outline-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Merchandising News -->
+    <section class="merchandising-news py-5">
+        <div class="container">
+            <h2 class="section-title mb-4">Noticias de Merchandising</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/img/niño.webp" class="card-img-top" alt="Merchandising News">
+                        <div class="card-body">
+                            <h5 class="card-title">Nueva colección de figuras de My Hero Academia</h5>
+                            <p class="card-text">Good Smile Company anuncia nueva línea...</p>
+                            <a href="#" class="btn btn-outline-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/img/titan.jpg" class="card-img-top" alt="Merchandising News">
+                        <div class="card-body">
+                            <h5 class="card-title">Nueva línea de ropa de Demon Slayer</h5>
+                            <p class="card-text">Uniqlo lanza colección inspirada en el anime...</p>
+                            <a href="#" class="btn btn-outline-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/img/tanjiro.jpg" class="card-img-top" alt="Merchandising News">
+                        <div class="card-body">
+                            <h5 class="card-title">Nuevos productos de Jujutsu Kaisen</h5>
+                            <p class="card-text">Bandai lanza nueva línea de accesorios...</p>
+                            <a href="#" class="btn btn-outline-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories py-5">
+        <div class="container">
+            <h2 class="section-title mb-4">Categorías</h2>
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <div class="category-card">
+                        <i class="fas fa-tv"></i>
+                        <h3>Anime</h3>
+                        <p>Noticias sobre series y películas</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="category-card">
+                        <i class="fas fa-book"></i>
+                        <h3>Manga</h3>
+                        <p>Últimas novedades en cómics</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="category-card">
+                        <i class="fas fa-gamepad"></i>
+                        <h3>Videojuegos</h3>
+                        <p>Noticias de juegos anime</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="category-card">
+                        <i class="fas fa-store"></i>
+                        <h3>Merchandising</h3>
+                        <p>Productos y coleccionables</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Sobre AnimeNews</h5>
+                    <p>Tu fuente confiable de noticias sobre el mundo del anime y manga.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Enlaces Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light">Inicio</a></li>
+                        <li><a href="#" class="text-light">Noticias</a></li>
+                        <li><a href="#" class="text-light">Reseñas</a></li>
+                        <li><a href="#" class="text-light">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Síguenos</h5>
+                    <div class="social-links">
+                        <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-light me-3"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-light me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-light"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 AnimeNews. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
